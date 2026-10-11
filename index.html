@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <title>Love Heart ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <canvas id="heartCanvas" role="img" aria-label="Love phrases in many languages slowly forming a heart"></canvas>
+  </main>
+  <div class="controls">
+    <button id="replayBtn" type="button">↻ Replay</button>
+    <button id="soundBtn" type="button" aria-label="Play music">♫ <span id="soundLabel">Music</span></button>
+  </div>
+  <div class="tap-hint" id="tapHint" hidden>Tap to play the music ♡</div>
+  <audio id="music" src="assets/music.mp3" preload="none" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
